@@ -1,19 +1,14 @@
 import objLoader
+import Model
+import Face
+import Vertex
 import sys
+
+
 obj =objLoader.ObjLoader()
-obj.load_model('CubeTriangulate.obj')
-
+obj.load_model('Extrussion/CubeTriangulate.obj')
+model=Model()
 d=10
-
-
-vertex_array=[]
-#WHAT THE HEcK ude how d i continu?
-for key,val in obj.vert_coords:
-    vertex_array.append(val)
-
-
-
-
 
 # file = open('result.obj',"w") 
 
